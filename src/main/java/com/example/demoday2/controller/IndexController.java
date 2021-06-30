@@ -35,6 +35,7 @@ public class IndexController {
 
     @GetMapping("/institute-list")
     public List<Institute> index(){
+        System.out.println("i have just added something");
         return instituteService.instituteList();
     }
 
